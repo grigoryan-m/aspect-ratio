@@ -9,9 +9,23 @@
 <body>
     <div class="wrapper">
         <div class="panel">
-            <div class="controls"></div>
-            <div class="result"></div>
+            <div class="result">
+                <label id="res">Resolution:</label>
+                <div class="res-field-div">
+                    <input type="text" class="res-field">
+                    <input type="text" class="res-field">
+                </div>
+                <button id="button">Calculate!</button>
+            </div>
+            <div class="controls">
+                <label id="aspect">Aspect ratio:</label>
+                <div class="aspect-field-div">
+                    <input disabled class="aspect-field">
+                    <input disabled class="aspect-field">
+                </div>
+            </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

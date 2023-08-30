@@ -1,0 +1,58 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.panel{
+    display: block;
+    padding: 20px;
+    background-color: #e52165;
+    width: 600px;
+    max-width: calc(100% - 100px);
+    height: 500px;
+    max-height: calc(100% - 70px);
+    color: #0d1137
+}
+label{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.aspect-field-div, .res-field-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aspect-field, .res-field{
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+}
+.aspect-field{
+    width: 50px;
+}
+.res-field{
+    width: 150px;
+}
+.result{
+    height: 50%;
+}
+.controls{
+    height: 50%;
+}
+#button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
